@@ -46,5 +46,6 @@ The project will be under the MIT License - details to appear in the LICENSE fil
    
 🙌 Acknowledgments  
    
-Shoutout to the Vulkan community for the wisdom and guidance.  
+Shoutout to the Vulkan community for the wisdom and guidance.
+[Vulkan Tutorial](https://vulkan-tutorial.com/)
 Anyone willing to give advice :)  
