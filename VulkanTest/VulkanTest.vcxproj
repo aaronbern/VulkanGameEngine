@@ -146,11 +146,13 @@
     <ClInclude Include="first_app.hpp" />
     <ClInclude Include="lve_device.hpp" />
     <ClInclude Include="lve_pipeline.hpp" />
+    <ClInclude Include="lve_swap_chain.hpp" />
     <ClInclude Include="lve_window.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first_app.cpp" />
     <ClCompile Include="lve_pipeline.cpp" />
+    <ClCompile Include="lve_swap_chain.cpp" />
     <ClCompile Include="lve_window.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="lve_device.cpp">
@@ -160,13 +162,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="compile.bat" />
+    <None Include="shaders\simple_shader.frag" />
     <None Include="shaders\simple_shader.frag.spv" />
+    <None Include="shaders\simple_shader.vert" />
     <None Include="shaders\simple_shader.vert.spv" />
-    <None Include="simple_shader.frag">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
-    </None>
-    <None Include="simple_shader.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

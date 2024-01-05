@@ -30,6 +30,9 @@
     <ClInclude Include="lve_device.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lve_swap_chain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lve_window.cpp">
@@ -47,21 +50,24 @@
     <ClCompile Include="lve_device.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lve_swap_chain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="simple_shader.vert">
-      <Filter>Source Files\shaders</Filter>
-    </None>
     <None Include="compile.bat">
       <Filter>Source Files</Filter>
-    </None>
-    <None Include="simple_shader.frag">
-      <Filter>Source Files\shaders</Filter>
     </None>
     <None Include="shaders\simple_shader.frag.spv">
       <Filter>Source Files\shaders</Filter>
     </None>
     <None Include="shaders\simple_shader.vert.spv">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\simple_shader.frag">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\simple_shader.vert">
       <Filter>Source Files\shaders</Filter>
     </None>
   </ItemGroup>
