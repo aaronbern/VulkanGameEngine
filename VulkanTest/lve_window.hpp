@@ -2,7 +2,8 @@
 
 #define GLFW_INCLUDE_VULKAN
 
-#include "C:/VS Libraries/GLFW/glfw-3.3.9.bin.WIN64/include/GLFW/glfw3.h"
+#include <GLFW/glfw3.h>
+
 #include <string>
 
 namespace lve {
