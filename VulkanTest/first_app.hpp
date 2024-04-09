@@ -21,6 +21,7 @@ namespace lve {
 
 		FirstApp(const LveWindow&) = delete;
 		FirstApp& operator=(const LveWindow&) = delete;
+
 		void run();
 	private:
 		void createPipelineLayout();

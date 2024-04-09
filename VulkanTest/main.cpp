@@ -9,6 +9,7 @@ int main() {
 	lve::FirstApp app{};
 
 	try {
+		std::cout << "Triangle...";
 		app.run();
 	}
 	catch (const std::exception& e) {
